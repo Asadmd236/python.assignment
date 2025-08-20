@@ -9,7 +9,11 @@ if num > 1:
     else:
         print(f"{num} is a prime number.")
 else:
-    print(f"{num} is not a prime number.")
+  print(f"{num} is not a prime number.")
+    
+#output    
+#Enter a number: 7
+#7 is a prime number.
 
 
 #Factorial
@@ -22,7 +26,9 @@ else:
     for i in range(1, num + 1):
         factorial *= i
     print(f"The factorial of {num} is {factorial}")
-
+#output    
+#Enter a number: 6
+#The factorial of 6 is 720
 #fibonacci upto n terms
 n = int(input("Enter the number of terms: "))
 
@@ -38,6 +44,12 @@ else:
         c = a + b
         print(c, end=" ")
         a, b = b, c
+        
+#output
+#Enter the number of terms: 8
+#0 1 1 2 3 5 8 13 
+
+
 
 #sum of digits
 num = int(input("Enter a number: "))
@@ -48,7 +60,11 @@ while num > 0:
     sum += digit
     num //= 10         
 
-print("Sum of digits:", sum)      
+print("Sum of digits:", sum)   
+
+#output
+#Enter a number: 587
+#Sum of digits: 20
 
 #reverse number
 num = int(input("Enter a number: "))
@@ -60,6 +76,10 @@ while num > 0:
     num //=10            
 
 print("Reversed number:", rev)
+#output
+#Enter a number: 678
+#Reversed number: 876
+
 
 
 
